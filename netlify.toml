@@ -1,3 +1,3 @@
 [[redirects]]
   from = "/foo/*"
-  to = "/:splat
+  to = "/:splat"
