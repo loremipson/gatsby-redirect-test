@@ -1,0 +1,17 @@
+{
+  "name": "testredirects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "serve": "yarn build && gatsby serve --prefix-paths"
+  },
+  "dependencies": {
+    "gatsby": "^2.30.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
